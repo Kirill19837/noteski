@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "ios": {
+      "buildNumber": "41",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oski.noteski",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "version": "1.0.1",
+    "name": "Noteski",
+    "description": "A simple app to save links.",
+    "githubUrl": "https://github.com/Kirill19837/expo-notes",
+    "slug": "noteski",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#B71C1C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "name": "Firehose",
+      "themeColor": "#B71C1C",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
